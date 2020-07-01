@@ -1,0 +1,63 @@
+/*font-family: 'Playfair Display', serif;*/
+body{
+	margin:0;
+	padding:0;
+}
+/*header start*/
+header{
+	
+
+}
+.wrapper{
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+
+}
+.logo{
+	margin-top:20px;
+	float:left;
+	width:10%;
+}
+.logo_img{
+	width:100%;
+}
+.menu{
+	float:right;
+	width:65%;
+
+}
+.menu ul{
+	list-style:none;
+	float:right;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0px 62px;
+  padding:10px 0;
+  transition: 0.3s;
+  border:1px solid transparent;
+}
+
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+.menu ul li a:hover {
+  border-bottom:1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.wrapper img{
+	width:100%;
+}
+/*banner end*/
